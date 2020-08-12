@@ -64,6 +64,10 @@ const parseGroup = ($el: Cheerio): CardGroup => {
 export const getDeck = async (eventId: number, id: number): Promise<Deck> => {
   const $ = await getPage(`https://www.mtgtop8.com/event?e=${eventId}&d=${id}`);
 
+  if ($.html().includes('No event could be found.')) {
+    throw new Error(`No deck ${id} for event ${eventId}`);
+  }
+
   const deck: Deck = {
     id,
     eventId,
