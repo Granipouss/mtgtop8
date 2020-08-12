@@ -1,0 +1,582 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Decks should match snapshot for EDH deck 1`] = `
+Object {
+  "archetype": Object {
+    "id": 911,
+    "name": "Kinnan, Bonder Prodigy",
+  },
+  "commander": Array [
+    Object {
+      "count": 1,
+      "name": "Kinnan, Bonder Prodigy",
+    },
+  ],
+  "eventId": 26139,
+  "format": "Duel Commander",
+  "id": 397720,
+  "mainboard": Array [
+    Object {
+      "count": 1,
+      "name": "Botanical Sanctum",
+    },
+    Object {
+      "count": 1,
+      "name": "Breeding Pool",
+    },
+    Object {
+      "count": 1,
+      "name": "Command Tower",
+    },
+    Object {
+      "count": 1,
+      "name": "Dryad Arbor",
+    },
+    Object {
+      "count": 1,
+      "name": "Flooded Strand",
+    },
+    Object {
+      "count": 1,
+      "name": "Forest",
+    },
+    Object {
+      "count": 1,
+      "name": "Hinterland Harbor",
+    },
+    Object {
+      "count": 1,
+      "name": "Misty Rainforest",
+    },
+    Object {
+      "count": 1,
+      "name": "Oboro, Palace in the Clouds",
+    },
+    Object {
+      "count": 1,
+      "name": "Polluted Delta",
+    },
+    Object {
+      "count": 1,
+      "name": "Scalding Tarn",
+    },
+    Object {
+      "count": 1,
+      "name": "Seat of the Synod",
+    },
+    Object {
+      "count": 8,
+      "name": "Snow-Covered Forest",
+    },
+    Object {
+      "count": 7,
+      "name": "Snow-Covered Island",
+    },
+    Object {
+      "count": 1,
+      "name": "Tropical Island",
+    },
+    Object {
+      "count": 1,
+      "name": "Verdant Catacombs",
+    },
+    Object {
+      "count": 1,
+      "name": "Waterlogged Grove",
+    },
+    Object {
+      "count": 1,
+      "name": "Windswept Heath",
+    },
+    Object {
+      "count": 1,
+      "name": "Wooded Foothills",
+    },
+    Object {
+      "count": 1,
+      "name": "Yavimaya Coast",
+    },
+    Object {
+      "count": 1,
+      "name": "Birds of Paradise",
+    },
+    Object {
+      "count": 1,
+      "name": "Bloom Tender",
+    },
+    Object {
+      "count": 1,
+      "name": "Boreal Druid",
+    },
+    Object {
+      "count": 1,
+      "name": "Devoted Druid",
+    },
+    Object {
+      "count": 1,
+      "name": "Drift of Phantasms",
+    },
+    Object {
+      "count": 1,
+      "name": "Drover of the Mighty",
+    },
+    Object {
+      "count": 1,
+      "name": "Elvish Mystic",
+    },
+    Object {
+      "count": 1,
+      "name": "Eternal Witness",
+    },
+    Object {
+      "count": 1,
+      "name": "Fyndhorn Elves",
+    },
+    Object {
+      "count": 1,
+      "name": "Harabaz Druid",
+    },
+    Object {
+      "count": 1,
+      "name": "Ilysian Caryatid",
+    },
+    Object {
+      "count": 1,
+      "name": "Incubation Druid",
+    },
+    Object {
+      "count": 1,
+      "name": "Llanowar Elves",
+    },
+    Object {
+      "count": 1,
+      "name": "Manaweft Sliver",
+    },
+    Object {
+      "count": 1,
+      "name": "Maraleaf Pixie",
+    },
+    Object {
+      "count": 1,
+      "name": "Painter's Servant",
+    },
+    Object {
+      "count": 1,
+      "name": "Paradise Druid",
+    },
+    Object {
+      "count": 1,
+      "name": "Reclamation Sage",
+    },
+    Object {
+      "count": 1,
+      "name": "Scavenging Ooze",
+    },
+    Object {
+      "count": 1,
+      "name": "Spectral Sailor",
+    },
+    Object {
+      "count": 1,
+      "name": "Spellseeker",
+    },
+    Object {
+      "count": 1,
+      "name": "Sylvan Caryatid",
+    },
+    Object {
+      "count": 1,
+      "name": "Thrasios, Triton Hero",
+    },
+    Object {
+      "count": 1,
+      "name": "Tribute Mage",
+    },
+    Object {
+      "count": 1,
+      "name": "Trinket Mage",
+    },
+    Object {
+      "count": 1,
+      "name": "Trophy Mage",
+    },
+    Object {
+      "count": 1,
+      "name": "Urza, Lord High Artificer",
+    },
+    Object {
+      "count": 1,
+      "name": "Utopia Tree",
+    },
+    Object {
+      "count": 1,
+      "name": "Walking Ballista",
+    },
+    Object {
+      "count": 1,
+      "name": "Bounty of the Hunt",
+    },
+    Object {
+      "count": 1,
+      "name": "Brainstorm",
+    },
+    Object {
+      "count": 1,
+      "name": "Daze",
+    },
+    Object {
+      "count": 1,
+      "name": "Dramatic Reversal",
+    },
+    Object {
+      "count": 1,
+      "name": "Fabricate",
+    },
+    Object {
+      "count": 1,
+      "name": "Force of Vigor",
+    },
+    Object {
+      "count": 1,
+      "name": "Force of Will",
+    },
+    Object {
+      "count": 1,
+      "name": "Gifts Ungiven",
+    },
+    Object {
+      "count": 1,
+      "name": "Green Sun's Zenith",
+    },
+    Object {
+      "count": 1,
+      "name": "Intuition",
+    },
+    Object {
+      "count": 1,
+      "name": "Invigorate",
+    },
+    Object {
+      "count": 1,
+      "name": "Mental Misstep",
+    },
+    Object {
+      "count": 1,
+      "name": "Miscalculation",
+    },
+    Object {
+      "count": 1,
+      "name": "Muddle the Mixture",
+    },
+    Object {
+      "count": 1,
+      "name": "Noxious Revival",
+    },
+    Object {
+      "count": 1,
+      "name": "Once Upon a Time",
+    },
+    Object {
+      "count": 1,
+      "name": "Ponder",
+    },
+    Object {
+      "count": 1,
+      "name": "Veil of Summer",
+    },
+    Object {
+      "count": 1,
+      "name": "Worldly Tutor",
+    },
+    Object {
+      "count": 1,
+      "name": "Arcane Signet",
+    },
+    Object {
+      "count": 1,
+      "name": "Basalt Monolith",
+    },
+    Object {
+      "count": 1,
+      "name": "Birthing Pod",
+    },
+    Object {
+      "count": 1,
+      "name": "Cryptolith Rite",
+    },
+    Object {
+      "count": 1,
+      "name": "Earthcraft",
+    },
+    Object {
+      "count": 1,
+      "name": "Freed from the Real",
+    },
+    Object {
+      "count": 1,
+      "name": "Garruk Relentless",
+    },
+    Object {
+      "count": 1,
+      "name": "Grindstone",
+    },
+    Object {
+      "count": 1,
+      "name": "Isochron Scepter",
+    },
+    Object {
+      "count": 1,
+      "name": "Jace, Wielder of Mysteries",
+    },
+    Object {
+      "count": 1,
+      "name": "Leyline of Abundance",
+    },
+    Object {
+      "count": 1,
+      "name": "Mox Amber",
+    },
+    Object {
+      "count": 1,
+      "name": "Oko, Thief of Crowns",
+    },
+    Object {
+      "count": 1,
+      "name": "Paradise Mantle",
+    },
+    Object {
+      "count": 1,
+      "name": "Pemmin's Aura",
+    },
+    Object {
+      "count": 1,
+      "name": "Springleaf Drum",
+    },
+    Object {
+      "count": 1,
+      "name": "Squirrel Nest",
+    },
+    Object {
+      "count": 1,
+      "name": "Sylvan Library",
+    },
+  ],
+  "name": "Kinnah",
+  "player": "Marek Vardžik",
+  "result": "5-8",
+  "sideboard": Array [],
+}
+`;
+
+exports[`Decks should match snapshot for Pioneer deck 1`] = `
+Object {
+  "archetype": Object {
+    "id": 887,
+    "name": "Fires of Invention",
+  },
+  "commander": Array [],
+  "eventId": 26845,
+  "format": "Pioneer",
+  "id": 409141,
+  "mainboard": Array [
+    Object {
+      "count": 1,
+      "name": "Castle Vantress",
+    },
+    Object {
+      "count": 2,
+      "name": "Clifftop Retreat",
+    },
+    Object {
+      "count": 1,
+      "name": "Geier Reach Sanitarium",
+    },
+    Object {
+      "count": 3,
+      "name": "Glacial Fortress",
+    },
+    Object {
+      "count": 4,
+      "name": "Hallowed Fountain",
+    },
+    Object {
+      "count": 4,
+      "name": "Interplanar Beacon",
+    },
+    Object {
+      "count": 1,
+      "name": "Island",
+    },
+    Object {
+      "count": 1,
+      "name": "Mountain",
+    },
+    Object {
+      "count": 1,
+      "name": "Plains",
+    },
+    Object {
+      "count": 4,
+      "name": "Raugrin Triome",
+    },
+    Object {
+      "count": 4,
+      "name": "Sacred Foundry",
+    },
+    Object {
+      "count": 4,
+      "name": "Steam Vents",
+    },
+    Object {
+      "count": 2,
+      "name": "Sulfur Falls",
+    },
+    Object {
+      "count": 1,
+      "name": "Temple of Enlightenment",
+    },
+    Object {
+      "count": 1,
+      "name": "Temple of Epiphany",
+    },
+    Object {
+      "count": 1,
+      "name": "Temple of Triumph",
+    },
+    Object {
+      "count": 4,
+      "name": "Fae of Wishes",
+    },
+    Object {
+      "count": 3,
+      "name": "Chance for Glory",
+    },
+    Object {
+      "count": 2,
+      "name": "Day's Undoing",
+    },
+    Object {
+      "count": 2,
+      "name": "Deafening Clarion",
+    },
+    Object {
+      "count": 3,
+      "name": "Supreme Verdict",
+    },
+    Object {
+      "count": 1,
+      "name": "Detention Sphere",
+    },
+    Object {
+      "count": 2,
+      "name": "Elspeth Conquers Death",
+    },
+    Object {
+      "count": 1,
+      "name": "Elspeth, Sun's Champion",
+    },
+    Object {
+      "count": 4,
+      "name": "Fires of Invention",
+    },
+    Object {
+      "count": 3,
+      "name": "Gideon of the Trials",
+    },
+    Object {
+      "count": 2,
+      "name": "Jace, Architect of Thought",
+    },
+    Object {
+      "count": 1,
+      "name": "Narset of the Ancient Way",
+    },
+    Object {
+      "count": 3,
+      "name": "Narset, Parter of Veils",
+    },
+    Object {
+      "count": 2,
+      "name": "Oath of Chandra",
+    },
+    Object {
+      "count": 1,
+      "name": "Oath of Teferi",
+    },
+    Object {
+      "count": 4,
+      "name": "Omen of the Sea",
+    },
+    Object {
+      "count": 2,
+      "name": "Shark Typhoon",
+    },
+    Object {
+      "count": 1,
+      "name": "Teferi, Hero of Dominaria",
+    },
+    Object {
+      "count": 4,
+      "name": "Teferi, Time Raveler",
+    },
+  ],
+  "name": "Jeskai Fires of Invention",
+  "player": "yunk3r",
+  "result": "1",
+  "sideboard": Array [
+    Object {
+      "count": 1,
+      "isCompanion": true,
+      "name": "Yorion, Sky Nomad",
+    },
+    Object {
+      "count": 1,
+      "name": "Anger of the Gods",
+    },
+    Object {
+      "count": 1,
+      "name": "Casualties of War",
+    },
+    Object {
+      "count": 1,
+      "name": "Chandra, Awakened Inferno",
+    },
+    Object {
+      "count": 1,
+      "name": "Day's Undoing",
+    },
+    Object {
+      "count": 2,
+      "name": "Dovin's Veto",
+    },
+    Object {
+      "count": 1,
+      "name": "Gideon of the Trials",
+    },
+    Object {
+      "count": 1,
+      "name": "Narset, Parter of Veils",
+    },
+    Object {
+      "count": 1,
+      "name": "Oath of Teferi",
+    },
+    Object {
+      "count": 2,
+      "name": "Rest in Peace",
+    },
+    Object {
+      "count": 1,
+      "name": "Supreme Verdict",
+    },
+    Object {
+      "count": 1,
+      "name": "Thought Distortion",
+    },
+    Object {
+      "count": 1,
+      "name": "Unmoored Ego",
+    },
+  ],
+}
+`;
