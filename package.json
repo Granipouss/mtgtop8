@@ -1,0 +1,53 @@
+{
+  "name": "mtgtop8",
+  "version": "0.1.0",
+  "description": "Predictable state container for JavaScript apps",
+  "license": "MIT",
+  "authors": [
+    "Granipouss <granipouss@gmail.com>"
+  ],
+  "main": "dist/mtgtop8.cjs.js",
+  "module": "dist/mtgtop8.esm.js",
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@types/ms": "^0.7.31",
+    "ms": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "@types/jest": "^26.0.9",
+    "@types/node": "^14.0.27",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0",
+    "jest": "^26.3.0",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^1.29.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "clean": "rimraf dist coverage types",
+    "format": "prettier --write \"{src,test}/**/*.{js,ts}\" \"**/*.md\"",
+    "format:check": "prettier --list-different \"{src,test}/**/*.{js,ts}\" \"**/*.md\"",
+    "lint": "eslint --ext js,ts src test",
+    "check-types": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:cov": "npm test -- --coverage",
+    "pretest": "npm run build",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "dist",
+    "src",
+    "types"
+  ]
+}
