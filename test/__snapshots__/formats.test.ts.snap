@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Formats should match snapshot 1`] = `
+Array [
+  Object {
+    "code": "VI",
+    "name": "vintage",
+  },
+  Object {
+    "code": "LE",
+    "name": "legacy",
+  },
+  Object {
+    "code": "MO",
+    "name": "modern",
+  },
+  Object {
+    "code": "PI",
+    "name": "pioneer",
+  },
+  Object {
+    "code": "ST",
+    "name": "standard",
+  },
+  Object {
+    "code": "EDH",
+    "name": "commander",
+  },
+  Object {
+    "code": "PAU",
+    "name": "pauper",
+  },
+  Object {
+    "code": "PEA",
+    "name": "peasant",
+  },
+  Object {
+    "code": "BL",
+    "name": "block",
+  },
+  Object {
+    "code": "EX",
+    "name": "extended",
+  },
+  Object {
+    "code": "HIGH",
+    "name": "highlander",
+  },
+  Object {
+    "code": "CHL",
+    "name": "canadian highlander",
+  },
+]
+`;
