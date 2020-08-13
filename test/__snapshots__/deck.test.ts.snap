@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Decks should match snapshot for EDH deck 1`] = `
-Object {
+Deck {
   "archetype": Object {
     "id": 911,
     "name": "Kinnan, Bonder Prodigy",
@@ -13,7 +13,10 @@ Object {
     },
   ],
   "eventId": 26139,
-  "format": "Duel Commander",
+  "format": Object {
+    "code": "EDH",
+    "name": "Duel Commander",
+  },
   "id": 397720,
   "mainboard": Array [
     Object {
@@ -369,14 +372,17 @@ Object {
 `;
 
 exports[`Decks should match snapshot for Pioneer deck 1`] = `
-Object {
+Deck {
   "archetype": Object {
     "id": 887,
     "name": "Fires of Invention",
   },
   "commander": Array [],
   "eventId": 26845,
-  "format": "Pioneer",
+  "format": Object {
+    "code": "PI",
+    "name": "Pioneer",
+  },
   "id": 409141,
   "mainboard": Array [
     Object {

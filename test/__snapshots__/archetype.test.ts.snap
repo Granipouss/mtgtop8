@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Archetypes should match snapshot for single 1`] = `
-Object {
+Archetype {
   "decks": Array [
     Object {
       "eventId": 26573,
@@ -110,8 +110,18 @@ Object {
 `;
 
 exports[`Archetypes should match snapshot with page 1`] = `
-Object {
+Archetype {
   "decks": Array [
+    Object {
+      "eventId": 26475,
+      "id": 403261,
+      "name": "Burn",
+    },
+    Object {
+      "eventId": 26492,
+      "id": 403428,
+      "name": "Red Deck Wins",
+    },
     Object {
       "eventId": 26492,
       "id": 403425,
@@ -201,16 +211,6 @@ Object {
       "eventId": 25904,
       "id": 393844,
       "name": "RDW",
-    },
-    Object {
-      "eventId": 25789,
-      "id": 392274,
-      "name": "Lurrus Burn",
-    },
-    Object {
-      "eventId": 25761,
-      "id": 391931,
-      "name": "Burn",
     },
   ],
   "id": 226,
