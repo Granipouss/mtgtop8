@@ -1,7 +1,17 @@
 {
   "name": "mtgtop8",
   "version": "0.1.0",
-  "description": "Predictable state container for JavaScript apps",
+  "description": "Handy TS client for https://www.mtgtop8.com",
+  "repository": {
+    "url": "https://github.com/Granipouss/mtgtop8"
+  },
+  "keywords": [
+    "magic",
+    "mtg",
+    "top8",
+    "decks",
+    "mtgtop8"
+  ],
   "license": "MIT",
   "authors": [
     "Granipouss <granipouss@gmail.com>"
