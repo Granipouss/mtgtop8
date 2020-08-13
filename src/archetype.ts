@@ -5,22 +5,23 @@ import { ShortDeck } from './deck';
 export type ShortArchetype = { id: number; name: string };
 
 export class Archetype implements ShortArchetype {
-  public static async get(id: number, page = 1): Promise<Archetype> {
-    const $ = await getPage(url.archetype(id, page));
+  public static async get(id: number): Promise<Archetype> {
+    const $ = await getPage(url.archetype(id));
     return new Archetype($);
   }
 
   id: number;
   name: string;
 
-  decks: ShortDeck[];
-
   private constructor($: CheerioStatic) {
     this.id = parseInt(match($('table table option').attr('value'), /archetype\?a=(\d+)&f=.+&meta=.+/)[0], 10);
 
     this.name = $('table table').eq(1).find('tr:first-child').text().replace('decks', '').trim();
+  }
 
-    this.decks = $('table table[align=center] .hover_tr')
+  async getDecks(page = 1): Promise<ShortDeck[]> {
+    const $ = await getPage(url.archetype(this.id, page));
+    return $('table table[align=center] .hover_tr')
       .get()
       .map((el) => {
         const [eventString, deckString, name] = match(

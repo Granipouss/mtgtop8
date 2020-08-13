@@ -18,7 +18,7 @@ export const url = {
   format: (format: string, page = 1): string => `${url.base()}/format?f=${format}&cp=${page}`,
   event: (id: number): string => `${url.base()}/event?e=${id}`,
   deck: (eventId: number, deckId: number): string => `${url.event(eventId)}&d=${deckId}`,
-  archetype: (id: number, page: number): string => `${url.base()}/archetype?a=${id}&current_page=${page}`,
+  archetype: (id: number, page = 1): string => `${url.base()}/archetype?a=${id}&current_page=${page}`,
 };
 
 export const getPage = async (url: string): Promise<CheerioStatic> => {

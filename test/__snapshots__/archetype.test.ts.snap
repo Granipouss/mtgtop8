@@ -1,219 +1,113 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Archetypes should match snapshot for single 1`] = `
-Archetype {
-  "decks": Array [
-    Object {
-      "eventId": 26573,
-      "id": 405134,
-      "name": "Weenie White",
-    },
-    Object {
-      "eventId": 26360,
-      "id": 401188,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 24053,
-      "id": 367839,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 23641,
-      "id": 363959,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 23267,
-      "id": 360094,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 23132,
-      "id": 358956,
-      "name": "Soul Sisters",
-    },
-    Object {
-      "eventId": 22987,
-      "id": 357571,
-      "name": "Soul Sisters",
-    },
-    Object {
-      "eventId": 22974,
-      "id": 357450,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 22912,
-      "id": 356769,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 22917,
-      "id": 356828,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 22810,
-      "id": 355898,
-      "name": "Martyr Proc",
-    },
-    Object {
-      "eventId": 22727,
-      "id": 355188,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 22637,
-      "id": 354458,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 22657,
-      "id": 354615,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 22602,
-      "id": 354082,
-      "name": "Soul Sisters",
-    },
-    Object {
-      "eventId": 22666,
-      "id": 354687,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 22327,
-      "id": 351489,
-      "name": "Martyr Proc",
-    },
-    Object {
-      "eventId": 22231,
-      "id": 350560,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 21645,
-      "id": 345345,
-      "name": "Martyr Life",
-    },
-    Object {
-      "eventId": 21582,
-      "id": 344907,
-      "name": "Martyr Life",
-    },
-  ],
-  "id": 214,
-  "name": "Martyr Life",
-}
+exports[`Archetypes should match get decks 1`] = `
+Array [
+  Object {
+    "eventId": 26475,
+    "id": 403261,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 26492,
+    "id": 403428,
+    "name": "Red Deck Wins",
+  },
+  Object {
+    "eventId": 26492,
+    "id": 403425,
+    "name": "Prowess Deck Wins",
+  },
+  Object {
+    "eventId": 26499,
+    "id": 403478,
+    "name": "Prowess Deck Wins",
+  },
+  Object {
+    "eventId": 26379,
+    "id": 401504,
+    "name": "Prowess Deck Wins",
+  },
+  Object {
+    "eventId": 26379,
+    "id": 401505,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 26360,
+    "id": 401192,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 26276,
+    "id": 399971,
+    "name": "Red Deck Wins",
+  },
+  Object {
+    "eventId": 26274,
+    "id": 399921,
+    "name": "Prowess Deck Wins",
+  },
+  Object {
+    "eventId": 26221,
+    "id": 399251,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 26314,
+    "id": 400559,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 26121,
+    "id": 397393,
+    "name": "Red Deck Wins",
+  },
+  Object {
+    "eventId": 26143,
+    "id": 397745,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 26103,
+    "id": 397109,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 26057,
+    "id": 396169,
+    "name": "Prowess Deck Wins",
+  },
+  Object {
+    "eventId": 26056,
+    "id": 396167,
+    "name": "Mono Red Prowess",
+  },
+  Object {
+    "eventId": 26035,
+    "id": 395892,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 25952,
+    "id": 394650,
+    "name": "Burn",
+  },
+  Object {
+    "eventId": 26107,
+    "id": 397163,
+    "name": "Naya Burn",
+  },
+  Object {
+    "eventId": 25904,
+    "id": 393844,
+    "name": "RDW",
+  },
+]
 `;
 
-exports[`Archetypes should match snapshot with page 1`] = `
+exports[`Archetypes should match snapshot 1`] = `
 Archetype {
-  "decks": Array [
-    Object {
-      "eventId": 26475,
-      "id": 403261,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 26492,
-      "id": 403428,
-      "name": "Red Deck Wins",
-    },
-    Object {
-      "eventId": 26492,
-      "id": 403425,
-      "name": "Prowess Deck Wins",
-    },
-    Object {
-      "eventId": 26499,
-      "id": 403478,
-      "name": "Prowess Deck Wins",
-    },
-    Object {
-      "eventId": 26379,
-      "id": 401504,
-      "name": "Prowess Deck Wins",
-    },
-    Object {
-      "eventId": 26379,
-      "id": 401505,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 26360,
-      "id": 401192,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 26276,
-      "id": 399971,
-      "name": "Red Deck Wins",
-    },
-    Object {
-      "eventId": 26274,
-      "id": 399921,
-      "name": "Prowess Deck Wins",
-    },
-    Object {
-      "eventId": 26221,
-      "id": 399251,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 26314,
-      "id": 400559,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 26121,
-      "id": 397393,
-      "name": "Red Deck Wins",
-    },
-    Object {
-      "eventId": 26143,
-      "id": 397745,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 26103,
-      "id": 397109,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 26057,
-      "id": 396169,
-      "name": "Prowess Deck Wins",
-    },
-    Object {
-      "eventId": 26056,
-      "id": 396167,
-      "name": "Mono Red Prowess",
-    },
-    Object {
-      "eventId": 26035,
-      "id": 395892,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 25952,
-      "id": 394650,
-      "name": "Burn",
-    },
-    Object {
-      "eventId": 26107,
-      "id": 397163,
-      "name": "Naya Burn",
-    },
-    Object {
-      "eventId": 25904,
-      "id": 393844,
-      "name": "RDW",
-    },
-  ],
-  "id": 226,
-  "name": "Red Deck Wins",
+  "id": 214,
+  "name": "Martyr Life",
 }
 `;
