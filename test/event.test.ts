@@ -1,10 +1,12 @@
-import { Event } from '../src/event';
+import { Event } from '../src';
 
-test('event', async () => {
-  const data = await Event.get(26728);
-  expect(data).toMatchSnapshot();
-});
+describe('Event', () => {
+  it('should get one', async () => {
+    const event = await Event.get(26728);
+    expect(event).toMatchSnapshot();
+  });
 
-test('no event', async () => {
-  await expect(Event.get(-1)).rejects.toThrow('No event for id -1');
+  it('should throw when not found', async () => {
+    await expect(Event.get(-1)).rejects.toThrow('No event for id -1');
+  });
 });

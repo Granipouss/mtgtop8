@@ -1,6 +1,222 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Decks should match snapshot for EDH deck 1`] = `
+exports[`Deck should get a Pioneer deck 1`] = `
+Deck {
+  "archetype": Object {
+    "id": 887,
+    "name": "Fires of Invention",
+  },
+  "commander": Array [],
+  "eventId": 26845,
+  "format": Object {
+    "code": "PI",
+    "name": "Pioneer",
+  },
+  "id": 409141,
+  "mainboard": Array [
+    Object {
+      "count": 1,
+      "name": "Castle Vantress",
+    },
+    Object {
+      "count": 2,
+      "name": "Clifftop Retreat",
+    },
+    Object {
+      "count": 1,
+      "name": "Geier Reach Sanitarium",
+    },
+    Object {
+      "count": 3,
+      "name": "Glacial Fortress",
+    },
+    Object {
+      "count": 4,
+      "name": "Hallowed Fountain",
+    },
+    Object {
+      "count": 4,
+      "name": "Interplanar Beacon",
+    },
+    Object {
+      "count": 1,
+      "name": "Island",
+    },
+    Object {
+      "count": 1,
+      "name": "Mountain",
+    },
+    Object {
+      "count": 1,
+      "name": "Plains",
+    },
+    Object {
+      "count": 4,
+      "name": "Raugrin Triome",
+    },
+    Object {
+      "count": 4,
+      "name": "Sacred Foundry",
+    },
+    Object {
+      "count": 4,
+      "name": "Steam Vents",
+    },
+    Object {
+      "count": 2,
+      "name": "Sulfur Falls",
+    },
+    Object {
+      "count": 1,
+      "name": "Temple of Enlightenment",
+    },
+    Object {
+      "count": 1,
+      "name": "Temple of Epiphany",
+    },
+    Object {
+      "count": 1,
+      "name": "Temple of Triumph",
+    },
+    Object {
+      "count": 4,
+      "name": "Fae of Wishes",
+    },
+    Object {
+      "count": 3,
+      "name": "Chance for Glory",
+    },
+    Object {
+      "count": 2,
+      "name": "Day's Undoing",
+    },
+    Object {
+      "count": 2,
+      "name": "Deafening Clarion",
+    },
+    Object {
+      "count": 3,
+      "name": "Supreme Verdict",
+    },
+    Object {
+      "count": 1,
+      "name": "Detention Sphere",
+    },
+    Object {
+      "count": 2,
+      "name": "Elspeth Conquers Death",
+    },
+    Object {
+      "count": 1,
+      "name": "Elspeth, Sun's Champion",
+    },
+    Object {
+      "count": 4,
+      "name": "Fires of Invention",
+    },
+    Object {
+      "count": 3,
+      "name": "Gideon of the Trials",
+    },
+    Object {
+      "count": 2,
+      "name": "Jace, Architect of Thought",
+    },
+    Object {
+      "count": 1,
+      "name": "Narset of the Ancient Way",
+    },
+    Object {
+      "count": 3,
+      "name": "Narset, Parter of Veils",
+    },
+    Object {
+      "count": 2,
+      "name": "Oath of Chandra",
+    },
+    Object {
+      "count": 1,
+      "name": "Oath of Teferi",
+    },
+    Object {
+      "count": 4,
+      "name": "Omen of the Sea",
+    },
+    Object {
+      "count": 2,
+      "name": "Shark Typhoon",
+    },
+    Object {
+      "count": 1,
+      "name": "Teferi, Hero of Dominaria",
+    },
+    Object {
+      "count": 4,
+      "name": "Teferi, Time Raveler",
+    },
+  ],
+  "name": "Jeskai Fires of Invention",
+  "player": "yunk3r",
+  "result": "1",
+  "sideboard": Array [
+    Object {
+      "count": 1,
+      "isCompanion": true,
+      "name": "Yorion, Sky Nomad",
+    },
+    Object {
+      "count": 1,
+      "name": "Anger of the Gods",
+    },
+    Object {
+      "count": 1,
+      "name": "Casualties of War",
+    },
+    Object {
+      "count": 1,
+      "name": "Chandra, Awakened Inferno",
+    },
+    Object {
+      "count": 1,
+      "name": "Day's Undoing",
+    },
+    Object {
+      "count": 2,
+      "name": "Dovin's Veto",
+    },
+    Object {
+      "count": 1,
+      "name": "Gideon of the Trials",
+    },
+    Object {
+      "count": 1,
+      "name": "Narset, Parter of Veils",
+    },
+    Object {
+      "count": 1,
+      "name": "Oath of Teferi",
+    },
+    Object {
+      "count": 2,
+      "name": "Rest in Peace",
+    },
+    Object {
+      "count": 1,
+      "name": "Supreme Verdict",
+    },
+    Object {
+      "count": 1,
+      "name": "Thought Distortion",
+    },
+    Object {
+      "count": 1,
+      "name": "Unmoored Ego",
+    },
+  ],
+}
+`;
+
+exports[`Deck should get an EDH deck 1`] = `
 Deck {
   "archetype": Object {
     "id": 911,
@@ -368,221 +584,5 @@ Deck {
   "player": "Marek Vardžik",
   "result": "5-8",
   "sideboard": Array [],
-}
-`;
-
-exports[`Decks should match snapshot for Pioneer deck 1`] = `
-Deck {
-  "archetype": Object {
-    "id": 887,
-    "name": "Fires of Invention",
-  },
-  "commander": Array [],
-  "eventId": 26845,
-  "format": Object {
-    "code": "PI",
-    "name": "Pioneer",
-  },
-  "id": 409141,
-  "mainboard": Array [
-    Object {
-      "count": 1,
-      "name": "Castle Vantress",
-    },
-    Object {
-      "count": 2,
-      "name": "Clifftop Retreat",
-    },
-    Object {
-      "count": 1,
-      "name": "Geier Reach Sanitarium",
-    },
-    Object {
-      "count": 3,
-      "name": "Glacial Fortress",
-    },
-    Object {
-      "count": 4,
-      "name": "Hallowed Fountain",
-    },
-    Object {
-      "count": 4,
-      "name": "Interplanar Beacon",
-    },
-    Object {
-      "count": 1,
-      "name": "Island",
-    },
-    Object {
-      "count": 1,
-      "name": "Mountain",
-    },
-    Object {
-      "count": 1,
-      "name": "Plains",
-    },
-    Object {
-      "count": 4,
-      "name": "Raugrin Triome",
-    },
-    Object {
-      "count": 4,
-      "name": "Sacred Foundry",
-    },
-    Object {
-      "count": 4,
-      "name": "Steam Vents",
-    },
-    Object {
-      "count": 2,
-      "name": "Sulfur Falls",
-    },
-    Object {
-      "count": 1,
-      "name": "Temple of Enlightenment",
-    },
-    Object {
-      "count": 1,
-      "name": "Temple of Epiphany",
-    },
-    Object {
-      "count": 1,
-      "name": "Temple of Triumph",
-    },
-    Object {
-      "count": 4,
-      "name": "Fae of Wishes",
-    },
-    Object {
-      "count": 3,
-      "name": "Chance for Glory",
-    },
-    Object {
-      "count": 2,
-      "name": "Day's Undoing",
-    },
-    Object {
-      "count": 2,
-      "name": "Deafening Clarion",
-    },
-    Object {
-      "count": 3,
-      "name": "Supreme Verdict",
-    },
-    Object {
-      "count": 1,
-      "name": "Detention Sphere",
-    },
-    Object {
-      "count": 2,
-      "name": "Elspeth Conquers Death",
-    },
-    Object {
-      "count": 1,
-      "name": "Elspeth, Sun's Champion",
-    },
-    Object {
-      "count": 4,
-      "name": "Fires of Invention",
-    },
-    Object {
-      "count": 3,
-      "name": "Gideon of the Trials",
-    },
-    Object {
-      "count": 2,
-      "name": "Jace, Architect of Thought",
-    },
-    Object {
-      "count": 1,
-      "name": "Narset of the Ancient Way",
-    },
-    Object {
-      "count": 3,
-      "name": "Narset, Parter of Veils",
-    },
-    Object {
-      "count": 2,
-      "name": "Oath of Chandra",
-    },
-    Object {
-      "count": 1,
-      "name": "Oath of Teferi",
-    },
-    Object {
-      "count": 4,
-      "name": "Omen of the Sea",
-    },
-    Object {
-      "count": 2,
-      "name": "Shark Typhoon",
-    },
-    Object {
-      "count": 1,
-      "name": "Teferi, Hero of Dominaria",
-    },
-    Object {
-      "count": 4,
-      "name": "Teferi, Time Raveler",
-    },
-  ],
-  "name": "Jeskai Fires of Invention",
-  "player": "yunk3r",
-  "result": "1",
-  "sideboard": Array [
-    Object {
-      "count": 1,
-      "isCompanion": true,
-      "name": "Yorion, Sky Nomad",
-    },
-    Object {
-      "count": 1,
-      "name": "Anger of the Gods",
-    },
-    Object {
-      "count": 1,
-      "name": "Casualties of War",
-    },
-    Object {
-      "count": 1,
-      "name": "Chandra, Awakened Inferno",
-    },
-    Object {
-      "count": 1,
-      "name": "Day's Undoing",
-    },
-    Object {
-      "count": 2,
-      "name": "Dovin's Veto",
-    },
-    Object {
-      "count": 1,
-      "name": "Gideon of the Trials",
-    },
-    Object {
-      "count": 1,
-      "name": "Narset, Parter of Veils",
-    },
-    Object {
-      "count": 1,
-      "name": "Oath of Teferi",
-    },
-    Object {
-      "count": 2,
-      "name": "Rest in Peace",
-    },
-    Object {
-      "count": 1,
-      "name": "Supreme Verdict",
-    },
-    Object {
-      "count": 1,
-      "name": "Thought Distortion",
-    },
-    Object {
-      "count": 1,
-      "name": "Unmoored Ego",
-    },
-  ],
 }
 `;
