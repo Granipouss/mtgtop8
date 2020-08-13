@@ -4,6 +4,13 @@ import { ShortDeck } from './deck';
 
 export type ShortEvent = { id: number; name: string };
 
+export enum Level {
+  Professional = 4,
+  Major = 3,
+  Competitive = 2,
+  Regular = 1,
+}
+
 type WithRanks<T> = T & { ranks: number[] };
 
 export class Event implements ShortEvent {
@@ -21,7 +28,7 @@ export class Event implements ShortEvent {
   name: string;
 
   format: ShortFormat;
-  rank: number;
+  level: Level;
   playerCount: number;
   date: Date;
   decks: WithRanks<ShortDeck>[] = [];
@@ -38,9 +45,7 @@ export class Event implements ShortEvent {
       code: chosenLinkData.format,
     };
 
-    const stars = $('img[src="/graph/star.png"]').length;
-    const bigstars = $('img[src="/graph/bigstar.png"]').length;
-    this.rank = 10 * bigstars + stars;
+    this.level = computeLevel($);
 
     const [playerCount, date] = match($('table table td[align="center"]').html() || '', /(\d+) players - (.+)/);
 
@@ -66,3 +71,13 @@ export class Event implements ShortEvent {
       .filter(isDefined);
   }
 }
+
+const computeLevel = ($: CheerioStatic): Level => {
+  if ($('img[src="/graph/bigstar.png"]').length > 0) {
+    return Level.Professional;
+  }
+  const stars = $('img[src="/graph/star.png"]').length;
+  if (stars >= 3) return Level.Major;
+  if (stars >= 2) return Level.Competitive;
+  return Level.Regular;
+};

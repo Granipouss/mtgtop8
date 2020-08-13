@@ -80,8 +80,8 @@ Event {
     "name": "Standard",
   },
   "id": 26728,
+  "level": 3,
   "name": "SCG Tour Online Championship Qualifier #1 @ Star City Games",
   "playerCount": 133,
-  "rank": 3,
 }
 `;
