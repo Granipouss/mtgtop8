@@ -12,7 +12,7 @@ describe('Archetypes', () => {
     expect(data).toMatchSnapshot();
   });
 
-  // it('should throw on not found', async () => {
-  //   await expect(getDeck(0, 1)).rejects.toThrow('No deck 1 for event 0');
-  // });
+  it('should throw on not found', async () => {
+    await expect(Archetype.get(-1)).rejects.toThrow('No archetype for id -1');
+  });
 });

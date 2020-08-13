@@ -13,8 +13,7 @@ export class Deck implements ShortDeck {
   public static async get(eventId: number, id: number): Promise<Deck> {
     const $ = await getPage(url.deck(eventId, id));
 
-    // FIXME: check for deck also
-    if ($.html().includes('No event could be found.')) {
+    if ($('table table table td td .hover_tr').html() == null) {
       throw new Error(`No deck ${id} for event ${eventId}`);
     }
 

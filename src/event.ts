@@ -11,7 +11,7 @@ export class Event implements ShortEvent {
     const $ = await getPage(url.event(id));
 
     if ($.html().includes('No event could be found.')) {
-      throw new Error(`No event ${id}`);
+      throw new Error(`No event for id ${id}`);
     }
 
     return new Event($);

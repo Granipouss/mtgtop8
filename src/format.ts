@@ -8,6 +8,11 @@ export type ShortFormat = { name: string; code: string };
 export class Format implements ShortFormat {
   public static async get(code: string): Promise<Format> {
     const $ = await getPage(url.format(code));
+
+    if (getTableRows($, /Metagame Breakdown/).length === 1) {
+      throw new Error(`No format for code ${code}`);
+    }
+
     return new Format($);
   }
 
@@ -72,10 +77,12 @@ export class Format implements ShortFormat {
 }
 
 const getTableRows = ($: CheerioStatic, title: RegExp): CheerioElement[] => {
-  const table: CheerioElement | undefined = $('table table')
-    .get()
-    .find((el) => $('tr:first-child', el).text().match(title));
-  if (!table) return [];
-
-  return table ? $(table).find('tr').get().splice(1) : [];
+  try {
+    const table: CheerioElement | undefined = $('table table')
+      .get()
+      .find((el) => $('tr:first-child', el).text().match(title));
+    return table ? $(table).find('tr').get().splice(1) : [];
+  } catch (error) {
+    return [];
+  }
 };

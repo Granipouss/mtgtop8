@@ -16,3 +16,7 @@ it('should get events for a format', async () => {
   const data = await format.getEvents(3);
   expect(data).toMatchSnapshot();
 });
+
+it('should throw on no format found', async () => {
+  await expect(Format.get('XX')).rejects.toThrow('No format for code XX');
+});

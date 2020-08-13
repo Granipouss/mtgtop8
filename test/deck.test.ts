@@ -11,7 +11,11 @@ describe('Decks', () => {
     expect(data).toMatchSnapshot();
   });
 
-  it('should throw on not found', async () => {
+  it('should throw on not found 1', async () => {
     await expect(Deck.get(0, 1)).rejects.toThrow('No deck 1 for event 0');
+  });
+
+  it('should throw on not found 2', async () => {
+    await expect(Deck.get(26845, 1)).rejects.toThrow('No deck 1 for event 26845');
   });
 });

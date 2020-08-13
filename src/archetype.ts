@@ -7,6 +7,11 @@ export type ShortArchetype = { id: number; name: string };
 export class Archetype implements ShortArchetype {
   public static async get(id: number): Promise<Archetype> {
     const $ = await getPage(url.archetype(id));
+
+    if ($('table table[align=center] .hover_tr').html() == null) {
+      throw new Error(`No archetype for id ${id}`);
+    }
+
     return new Archetype($);
   }
 
