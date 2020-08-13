@@ -29,14 +29,14 @@ export class Archetype implements ShortArchetype {
     return $('table table[align=center] .hover_tr')
       .get()
       .map((el) => {
-        const [eventString, deckString, name] = match(
+        const [eventId, deckId, name] = match(
           $(el).find('td').eq(1).html() || '',
           /^<a href="event\?e=(\d+)&amp;d=(\d+)&amp;f=MO">(.+)<\/a>$/
         );
 
         return {
-          eventId: parseInt(eventString, 10),
-          id: parseInt(deckString, 10),
+          eventId: parseInt(eventId, 10),
+          id: parseInt(deckId, 10),
           name: name.trim(),
         };
       });

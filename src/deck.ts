@@ -74,15 +74,14 @@ export class Deck implements ShortDeck {
 }
 
 const parseCard = ($el: Cheerio): WithCount<Card> => {
-  const text = $el.text();
-  const match = text.match(/^(\d+) (.+)$/);
-  if (!match) throw new Error(`Cannot parse card: ${text}`);
+  const [count, name] = match($el.text(), /^(\d+) (.+)$/);
 
-  const count = parseInt(match[1], 10);
-  const name = match[2].trim();
+  const card: WithCount<Card> = {
+    count: parseInt(count, 10),
+    name: name.trim(),
+  };
+
   const isCompanion = $el.find('[id="companion_%%%"]').length > 0;
-
-  const card: WithCount<Card> = { count, name };
   if (isCompanion) card.isCompanion = true;
 
   return card;
