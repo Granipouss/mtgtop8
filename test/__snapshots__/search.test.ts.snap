@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should search for nice decks 1`] = `
+Object {
+  "count": 43,
+  "results": Array [
+    Object {
+      "eventId": 16771,
+      "id": 303732,
+      "name": "UB Faeries",
+    },
+    Object {
+      "eventId": 16709,
+      "id": 303318,
+      "name": "Ub Faeries",
+    },
+    Object {
+      "eventId": 16542,
+      "id": 302304,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 16084,
+      "id": 299101,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 16429,
+      "id": 301513,
+      "name": "Ub Faeries",
+    },
+    Object {
+      "eventId": 14765,
+      "id": 288904,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 14511,
+      "id": 287018,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 13636,
+      "id": 280254,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 11328,
+      "id": 264321,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 10980,
+      "id": 262515,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 9545,
+      "id": 254811,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 9545,
+      "id": 254813,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 8087,
+      "id": 246592,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 7999,
+      "id": 246035,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 7862,
+      "id": 245274,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 7858,
+      "id": 245251,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 7727,
+      "id": 244465,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 6980,
+      "id": 240112,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 2776,
+      "id": 217953,
+      "name": "Mono U Faeries",
+    },
+    Object {
+      "eventId": 2611,
+      "id": 216970,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 2622,
+      "id": 217042,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 2597,
+      "id": 216887,
+      "name": "UR Faeries",
+    },
+    Object {
+      "eventId": 2594,
+      "id": 216860,
+      "name": "Faeries",
+    },
+    Object {
+      "eventId": 2600,
+      "id": 216909,
+      "name": "UR Faeries",
+    },
+    Object {
+      "eventId": 2572,
+      "id": 216712,
+      "name": "Faeries",
+    },
+  ],
+}
+`;
