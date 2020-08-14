@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import HTTP, { RequestOptions } from 'https';
 import { load } from 'cheerio';
 import { decode } from 'iconv-lite';
 
@@ -21,10 +21,16 @@ export const url = {
   archetype: (id: number, page = 1): string => `${url.base()}/archetype?a=${id}&current_page=${page}`,
 };
 
-export const getPage = async (url: string): Promise<CheerioStatic> => {
-  const response = await fetch(url);
-  return load(decode(await response.buffer(), ENCODING));
-};
+const get = async (url: string, options: RequestOptions = {}) =>
+  new Promise<Buffer>((resolve, reject) =>
+    HTTP.get(url, options, (res) => {
+      const chunks: Buffer[] = [];
+      res.on('data', (chunk) => chunks.push(chunk));
+      res.on('end', () => resolve(Buffer.concat(chunks)));
+    }).on('error', (err) => reject(err))
+  );
+
+export const getPage = async (url: string): Promise<CheerioStatic> => load(decode(await get(url), ENCODING));
 
 // = String ===
 

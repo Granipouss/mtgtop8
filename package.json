@@ -21,8 +21,7 @@
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "cheerio": "^1.0.0-rc.3",
-    "iconv-lite": "^0.6.2",
-    "node-fetch": "^2.6.0"
+    "iconv-lite": "^0.6.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.4",
